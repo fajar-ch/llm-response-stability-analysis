@@ -3,13 +3,6 @@ Large Language Models (LLMs) may generate varying responses even if their prompt
 # LLM Response Stability and Contradiction Patterns
 
 # 🔬 LLM Prompt Consistency Study  
-### Testing the Effects of Prompt Variations on Responses from Large Language Models
-
-![Python](https://img.shields.io/badge/Python-3.8+-blue)
-![Status](https://img.shields.io/badge/Status-Research_Project-success)
-![License](https://img.shields.io/badge/License-MIT-green)
-
----
 
 ## 🧠 Overview
 Large Language Models (LLMs) may generate varied responses based on differences in prompt wording.  
@@ -57,3 +50,32 @@ This research examines the impact of **prompt sensitivity, response consistency,
 | Organized        | ~0.88 - 0.91      |
 
 💥 Adversarial prompts decrease stability, whereas organized prompts
+## Requirements
+
+- Python 3.8+
+- pandas
+- matplotlib
+- scikit-learn
+- sentence-transformers
+
+---
+
+## Installation
+
+```bash
+pip install -r requirements.txt
+-----
+
+## Discussion
+The results show that prompt formulation is critical for reliability. Contradictions point out the shortcomings of the models’ consistency.
+
+---
+
+## Conclusion
+LLMs are sensitive to prompts, and their stability can be enhanced using structured prompts.
+
+---
+
+## Future Work
+- automated contradiction detection  
+- multi-model comparison
