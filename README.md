@@ -37,6 +37,21 @@ This study seeks to assess:
 - manual analysis to identify conflicting statements
 
 ---
+## Requirements
+
+- Python 3.8+
+- pandas
+- matplotlib
+- scikit-learn
+- sentence-transformers
+
+---
+
+## Installation
+
+```bash
+pip install -r requirements.txt
+-----
 
 ## Main Results
 - stable responses noted for simple factual prompts
